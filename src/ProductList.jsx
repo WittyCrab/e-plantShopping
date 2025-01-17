@@ -266,7 +266,7 @@ function ProductList() {
         }));
     };
 
-  const totalCartItemsNbr = () => {
+    const totalCartItemsNbr = () => {
     let itemsCount = 0;
     cart.forEach(product => {
         itemsCount += product.quantity;
